@@ -1,2 +1,1 @@
-# me
-my simple website
+-- my simple react website
