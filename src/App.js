@@ -64,7 +64,7 @@ function App() {
         </div>
       </div>
       <div className='box' style={{backgroundColor: "#B7B597", display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-evenly', textAlign: 'center'}}>
-        <button onClick={() => window.open('https://github.com/paulkfernando', '_blank')} style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: 'fit-content', height: 'fit-content'}}>
+        <button onClick={() => window.open('https://github.com/paulkfernando?tab=repositories', '_blank')} style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: 'fit-content', height: 'fit-content'}}>
           <ion-icon name="logo-github" style={{ fontSize: '9vw', color: '#254336' }}></ion-icon>
         </button>
         <button onClick={() => window.open('https://www.linkedin.com/in/paul-fernando-1b603b217/', '_blank')} style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: 'fit-content', height: 'fit-content'}}>
