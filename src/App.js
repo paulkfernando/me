@@ -35,10 +35,6 @@ function App() {
       const response = await axios.get('https://api.quotable.io/random');
       setQuote(response.data.content);
       setAuthor(response.data.author);
-      if(!quote){
-          setQuote("The greatest glory in living lies not in never falling, but in rising every time we fall.");
-          setAuthor("Nelson Mandel");        
-      }
     } catch (error) {
       console.error('Error fetching quote:', error);
     }
