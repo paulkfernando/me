@@ -36,6 +36,8 @@ function App() {
       setQuote(response.data.content);
       setAuthor(response.data.author);
     } catch (error) {
+      setQuote("The greatest glory in living lies not in never falling, but in rising every time we fall.");
+      setAuthor("Nelson Mandela);
       console.error('Error fetching quote:', error);
     }
   };
